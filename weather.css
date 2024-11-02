@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:palevioletred;
+   
+}
+.container{
+    display: flex;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+ 
+}
+#pic{
+    border: 2px solid black;
+    padding: 20px;
+}
+/* #main{
+    background-color: chartreuse;
+} */
+#input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: blueviolet;
+}
+#main{
+    text-transform: uppercase;
+}
